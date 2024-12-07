@@ -1,13 +1,15 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "prompt",
- "creation": "2024-12-01 10:17:21.992108",
+ "autoname": "format:{master_user_name}s",
+ "creation": "2024-12-07 20:25:22.669161",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "project_link",
-  "master_users"
+  "dimension",
+  "master_user_name",
+  "user_story"
  ],
  "fields": [
   {
@@ -17,19 +19,30 @@
    "options": "business overview"
   },
   {
-   "fieldname": "master_users",
-   "fieldtype": "Table",
-   "label": "master users",
-   "options": "Master User child"
+   "fieldname": "master_user_name",
+   "fieldtype": "Data",
+   "label": "master username",
+   "unique": 1
+  },
+  {
+   "fieldname": "user_story",
+   "fieldtype": "Small Text",
+   "label": "user story"
+  },
+  {
+   "fieldname": "dimension",
+   "fieldtype": "Link",
+   "label": "dimension",
+   "options": "dimensions"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-07 21:18:58.747937",
+ "modified": "2024-12-07 23:58:21.883464",
  "modified_by": "Administrator",
  "module": "Embardory",
- "name": "Master Users",
- "naming_rule": "Set by user",
+ "name": "master",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

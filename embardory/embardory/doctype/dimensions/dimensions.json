@@ -1,48 +1,39 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "prompt",
- "creation": "2024-12-01 10:44:19.465292",
+ "creation": "2024-12-07 23:55:19.934437",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "master_users",
+  "master_username",
   "diagram",
-  "dimensions_methods",
-  "data_mahc"
+  "dimension_methods"
  ],
  "fields": [
   {
-   "fieldname": "master_users",
+   "fieldname": "master_username",
    "fieldtype": "Link",
-   "label": "Master Users",
-   "options": "Master User child"
+   "label": "Master Username",
+   "options": "master"
   },
   {
    "fieldname": "diagram",
-   "fieldtype": "Attach Image",
+   "fieldtype": "Attach",
    "label": "diagram"
   },
   {
-   "fieldname": "dimensions_methods",
+   "fieldname": "dimension_methods",
    "fieldtype": "Table",
-   "label": "dimensions methods",
+   "label": "dimension methods",
    "options": "dimensions methods child"
-  },
-  {
-   "fetch_from": "master_users.user_story",
-   "fieldname": "data_mahc",
-   "fieldtype": "Small Text",
-   "label": "user story"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-06 17:25:13.765930",
+ "modified": "2024-12-07 23:57:21.941570",
  "modified_by": "Administrator",
  "module": "Embardory",
  "name": "dimensions",
- "naming_rule": "Set by user",
  "owner": "Administrator",
  "permissions": [
   {
