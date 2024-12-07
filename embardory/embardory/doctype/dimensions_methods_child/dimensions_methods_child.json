@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2024-12-01 10:48:55.626449",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "method_name",
+  "attributes",
+  "trigger"
+ ],
+ "fields": [
+  {
+   "fieldname": "method_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "method name "
+  },
+  {
+   "fieldname": "attributes",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "attributes "
+  },
+  {
+   "fieldname": "trigger",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "trigger"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-06 15:34:07.318003",
+ "modified_by": "Administrator",
+ "module": "Embardory",
+ "name": "dimensions methods child",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

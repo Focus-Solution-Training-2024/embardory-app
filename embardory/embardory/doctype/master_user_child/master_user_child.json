@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:user_name",
+ "creation": "2024-12-01 10:19:29.249620",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "user_name",
+  "user_story"
+ ],
+ "fields": [
+  {
+   "fieldname": "user_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "user name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "user_story",
+   "fieldtype": "Long Text",
+   "in_list_view": 1,
+   "label": "user story"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-06 17:12:42.140413",
+ "modified_by": "Administrator",
+ "module": "Embardory",
+ "name": "Master User child",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

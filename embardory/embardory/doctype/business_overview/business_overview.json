@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:project_name",
+ "creation": "2024-12-01 10:12:35.114862",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "executive_summary",
+  "business_overview",
+  "market_analysis",
+  "marketing_strategy",
+  "operations_plan",
+  "financial_projections",
+  "conclusion"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "label": "Project Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "executive_summary",
+   "fieldtype": "Small Text",
+   "label": "Executive Summary"
+  },
+  {
+   "fieldname": "business_overview",
+   "fieldtype": "Small Text",
+   "label": "Business Overview"
+  },
+  {
+   "fieldname": "market_analysis",
+   "fieldtype": "Small Text",
+   "label": "Market Analysis"
+  },
+  {
+   "fieldname": "marketing_strategy",
+   "fieldtype": "Small Text",
+   "label": "Marketing Strategy"
+  },
+  {
+   "fieldname": "operations_plan",
+   "fieldtype": "Small Text",
+   "label": "Operations Plan"
+  },
+  {
+   "fieldname": "financial_projections",
+   "fieldtype": "Small Text",
+   "label": "Financial Projections"
+  },
+  {
+   "fieldname": "conclusion",
+   "fieldtype": "Small Text",
+   "label": "Conclusion"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-06 12:56:38.168798",
+ "modified_by": "Administrator",
+ "module": "Embardory",
+ "name": "business overview",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
