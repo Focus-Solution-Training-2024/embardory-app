@@ -1,45 +1,26 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2024-12-07 23:55:19.934437",
+ "creation": "2024-12-08 10:31:53.727425",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "link_rtws",
-  "master_username",
-  "diagram",
-  "dimension_methods"
+  "project_name"
  ],
  "fields": [
   {
-   "fieldname": "master_username",
+   "fieldname": "project_name",
    "fieldtype": "Link",
-   "label": "Master Username",
-   "options": "master"
-  },
-  {
-   "fieldname": "diagram",
-   "fieldtype": "Attach",
-   "label": "diagram"
-  },
-  {
-   "fieldname": "dimension_methods",
-   "fieldtype": "Table",
-   "label": "dimension methods",
-   "options": "dimensions methods child"
-  },
-  {
-   "fieldname": "link_rtws",
-   "fieldtype": "Link",
+   "label": "project name",
    "options": "business overview"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-08 10:31:41.330405",
+ "modified": "2024-12-08 10:32:49.378832",
  "modified_by": "Administrator",
  "module": "Embardory",
- "name": "dimensions",
+ "name": "Business Processes",
  "owner": "Administrator",
  "permissions": [
   {

@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-08 10:35:53.371858",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "process_name",
+  "business_processes_diagram",
+  "fact_table_name",
+  "fact_table_dimensional_diagram",
+  "table_guga"
+ ],
+ "fields": [
+  {
+   "fieldname": "process_name",
+   "fieldtype": "Data",
+   "label": "process name"
+  },
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "project name",
+   "options": "business overview"
+  },
+  {
+   "fieldname": "business_processes_diagram",
+   "fieldtype": "Attach",
+   "label": "Business Processes diagram"
+  },
+  {
+   "fieldname": "fact_table_name",
+   "fieldtype": "Data",
+   "label": "fact table name "
+  },
+  {
+   "fieldname": "fact_table_dimensional_diagram",
+   "fieldtype": "Attach",
+   "label": "fact table dimensional diagram"
+  },
+  {
+   "fieldname": "table_guga",
+   "fieldtype": "Table",
+   "options": "intergrated systems child"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-08 10:45:43.992124",
+ "modified_by": "Administrator",
+ "module": "Embardory",
+ "name": "Master Processes",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
