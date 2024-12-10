@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:page_name",
+ "creation": "2024-12-10 21:52:53.999674",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "page_name",
+  "users",
+  "discription",
+  "protoype",
+  "processes",
+  "dimensions_methods",
+  "intergrated_systems"
+ ],
+ "fields": [
+  {
+   "fieldname": "page_name",
+   "fieldtype": "Data",
+   "label": "Page Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "users",
+   "fieldtype": "Data",
+   "label": "users(multi select)"
+  },
+  {
+   "fieldname": "discription",
+   "fieldtype": "Data",
+   "label": "discription"
+  },
+  {
+   "fieldname": "protoype",
+   "fieldtype": "Attach",
+   "label": "protoype"
+  },
+  {
+   "fieldname": "processes",
+   "fieldtype": "Table",
+   "label": "Processes",
+   "options": "Business Processes child"
+  },
+  {
+   "fieldname": "dimensions_methods",
+   "fieldtype": "Table",
+   "label": "dimensions methods ",
+   "options": "dimensions methods child"
+  },
+  {
+   "fieldname": "intergrated_systems",
+   "fieldtype": "Table",
+   "label": "intergrated systems",
+   "options": "intergrated systems child"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-10 22:09:39.929433",
+ "modified_by": "Administrator",
+ "module": "Embardory",
+ "name": "page child",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
