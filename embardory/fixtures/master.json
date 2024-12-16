@@ -1,0 +1,32 @@
+[
+ {
+  "dimension": null,
+  "docstatus": 0,
+  "doctype": "master",
+  "master_user_name": "customer",
+  "modified": "2024-12-07 22:09:38.688089",
+  "name": "customers",
+  "project_link": "Online Custom Embroidery",
+  "user_story": "Browse and Choose Products: Users can either select from past designs, customize their own design, or choose a designer from a list to create a special, unique design. Afterward, they can approve the design and add it to the cart to proceed with purchasing.\nSign Up: Before proceeding with the purchase, users must sign up to the system to continue with the checkout process.\nOrder Tracking: Users can log in at any time to track the status of their order.\nVendor Communication: Users can chat with the selected vendor and share photos to monitor the progress of their order.\nOrder Cancellation: Users can cancel their order within a specific time frame.\nFeedback: After receiving the product, users can provide feedback on their experience and the quality of the product.\nProduct Sharing: Users can share their purchased products with friends.\nCopyright Protection: The designs are saved with copyright protection to prevent unauthorized use."
+ },
+ {
+  "dimension": null,
+  "docstatus": 0,
+  "doctype": "master",
+  "master_user_name": "vendor",
+  "modified": "2024-12-07 22:10:40.959104",
+  "name": "vendors",
+  "project_link": "Online Custom Embroidery",
+  "user_story": "Create an Account and Set Up Profile: Vendors create an account and set up a profile showcasing their services, pricing, and location.\nDisplay Past Projects, Ratings, and Reviews: Vendors display their previous work, along with customer ratings and reviews to build trust.\nAccept or Reject Orders: Vendors have the option to accept or reject orders submitted by customers or forwarded by designers.\nReview Design Specifications: Vendors review the design specifications and confirm whether they can be realistically executed.\nManage Production Schedules: Vendors manage production schedules and update the status of orders accordingly.\nCommunication: Vendors can communicate with customers about the production status or collaborate with designers for further clarifications."
+ },
+ {
+  "dimension": null,
+  "docstatus": 0,
+  "doctype": "master",
+  "master_user_name": "designer",
+  "modified": "2024-12-07 22:37:09.243947",
+  "name": "designers",
+  "project_link": "Online Custom Embroidery",
+  "user_story": "Sign Up: Designers must sign up to the system to offer their services.\nUpload Designs and Pricing: Designers upload their portfolio of designs and provide pricing information.\nAccept Custom Design Requests: Designers can accept customer requests to create custom designs based on their specific needs.\nUpdate Status: Designers update the status of custom designs to keep customers informed about progress.\nChat with Customers: Designers can communicate with customers through chat to discuss details and provide updates on their designs."
+ }
+]

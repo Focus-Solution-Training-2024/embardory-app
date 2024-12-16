@@ -244,4 +244,24 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
+fixtures=[
+    "business overview",
+    "Master Users",
+    "Master User child",
+    "master",
+    "dimensions methods child",
+    "dimensions",
+    "Business Processes",
+    "Business Processes child",
+    "Master Processes",
+    "intergrated systems child",
+    "pages",
+    "data child",
+    "entity data child",
+    "fact table",
+    "master page",
+    "page child",
+    "page elements child",
+    "test workflow",
+]
 

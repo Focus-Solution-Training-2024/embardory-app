@@ -1,33 +1,41 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2024-12-10 21:51:42.025593",
+ "creation": "2024-12-14 14:23:39.450949",
  "doctype": "DocType",
+ "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "project_name",
-  "pages"
+  "table_name",
+  "table_type",
+  "table_yhlp"
  ],
  "fields": [
   {
-   "fieldname": "project_name",
-   "fieldtype": "Link",
-   "label": "project name",
-   "options": "business overview"
+   "fieldname": "table_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "table name"
   },
   {
-   "fieldname": "pages",
+   "fieldname": "table_type",
+   "fieldtype": "Select",
+   "label": "table type ",
+   "options": "refrence\nprocess\nmaster data"
+  },
+  {
+   "fieldname": "table_yhlp",
    "fieldtype": "Table",
-   "label": "pages",
-   "options": "page child"
+   "label": "table data",
+   "options": "entity data child"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-14 15:13:48.717467",
+ "modified": "2024-12-15 15:54:40.104181",
  "modified_by": "Administrator",
  "module": "Embardory",
- "name": "pages",
+ "name": "master data",
  "owner": "Administrator",
  "permissions": [
   {
