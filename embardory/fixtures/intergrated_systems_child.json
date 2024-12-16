@@ -1,0 +1,14 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "intergrated systems child",
+  "end_points": null,
+  "modified": "2024-12-15 14:42:31.340120",
+  "name": "62joh5n1cg",
+  "other_requirments": null,
+  "parent": "register procsess",
+  "parentfield": "table_guga",
+  "parenttype": "Master Processes",
+  "system_name": "google (Oauth)"
+ }
+]

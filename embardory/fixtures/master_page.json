@@ -1,0 +1,30 @@
+[
+ {
+  "dimensions": [],
+  "docstatus": 0,
+  "doctype": "master page",
+  "fact_table_used": "register fact table",
+  "master_data_used": [
+   {
+    "table_name": "ch7umefkms"
+   }
+  ],
+  "modified": "2024-12-15 16:07:28.858461",
+  "name": "kp2b1q7md7",
+  "page_elements": [
+   {
+    "element_name": "username_txt",
+    "element_type": null,
+    "event": null
+   }
+  ],
+  "page_name": "sign up",
+  "processes": [
+   {
+    "process_name": "register procsess"
+   }
+  ],
+  "prototype": null,
+  "users": []
+ }
+]

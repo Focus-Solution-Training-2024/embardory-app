@@ -1,0 +1,19 @@
+[
+ {
+  "business_processes_diagram": null,
+  "docstatus": 0,
+  "doctype": "Master Processes",
+  "fact_table_name": "register fact table",
+  "modified": "2024-12-15 14:42:31.340120",
+  "name": "register procsess",
+  "process_name": "register",
+  "project_name": "Online Custom Embroidery",
+  "table_guga": [
+   {
+    "end_points": null,
+    "other_requirments": null,
+    "system_name": "google (Oauth)"
+   }
+  ]
+ }
+]

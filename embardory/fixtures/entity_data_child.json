@@ -1,0 +1,90 @@
+[
+ {
+  "attribute_name": "user_name",
+  "data_type": "Text",
+  "docstatus": 0,
+  "doctype": "entity data child",
+  "modified": "2024-12-15 15:30:33.243349",
+  "name": "jfep1cp18g",
+  "parent": "user table",
+  "parentfield": "table_yhlp",
+  "parenttype": "master data"
+ },
+ {
+  "attribute_name": "username",
+  "data_type": "Text",
+  "docstatus": 0,
+  "doctype": "entity data child",
+  "modified": "2024-12-15 15:58:15.715833",
+  "name": "fnnvlafvts",
+  "parent": "ch7umefkms",
+  "parentfield": "table_yhlp",
+  "parenttype": "master data"
+ },
+ {
+  "attribute_name": "password",
+  "data_type": "Text",
+  "docstatus": 0,
+  "doctype": "entity data child",
+  "modified": "2024-12-15 15:30:33.243349",
+  "name": "3kkqf6058p",
+  "parent": "user table",
+  "parentfield": "table_yhlp",
+  "parenttype": "master data"
+ },
+ {
+  "attribute_name": "password",
+  "data_type": "Text",
+  "docstatus": 0,
+  "doctype": "entity data child",
+  "modified": "2024-12-15 15:58:15.715833",
+  "name": "em69nd3jhq",
+  "parent": "ch7umefkms",
+  "parentfield": "table_yhlp",
+  "parenttype": "master data"
+ },
+ {
+  "attribute_name": "email",
+  "data_type": "Text",
+  "docstatus": 0,
+  "doctype": "entity data child",
+  "modified": "2024-12-15 15:30:33.243349",
+  "name": "h3n0jfcmgh",
+  "parent": "user table",
+  "parentfield": "table_yhlp",
+  "parenttype": "master data"
+ },
+ {
+  "attribute_name": "role",
+  "data_type": "Text",
+  "docstatus": 0,
+  "doctype": "entity data child",
+  "modified": "2024-12-15 15:58:15.715833",
+  "name": "nqbdak1s6t",
+  "parent": "ch7umefkms",
+  "parentfield": "table_yhlp",
+  "parenttype": "master data"
+ },
+ {
+  "attribute_name": "role",
+  "data_type": "Text",
+  "docstatus": 0,
+  "doctype": "entity data child",
+  "modified": "2024-12-15 15:30:33.243349",
+  "name": "h1bo4pdo6h",
+  "parent": "user table",
+  "parentfield": "table_yhlp",
+  "parenttype": "master data"
+ },
+ {
+  "attribute_name": "email",
+  "data_type": "Text",
+  "docstatus": 0,
+  "doctype": "entity data child",
+  "modified": "2024-12-15 15:58:15.715833",
+  "name": "pb4s17je8d",
+  "parent": "ch7umefkms",
+  "parentfield": "table_yhlp",
+  "parenttype": "master data"
+ }
+]
