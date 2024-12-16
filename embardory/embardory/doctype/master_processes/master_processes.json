@@ -9,7 +9,6 @@
   "process_name",
   "business_processes_diagram",
   "fact_table_name",
-  "fact_table_dimensional_diagram",
   "table_guga"
  ],
  "fields": [
@@ -31,23 +30,20 @@
   },
   {
    "fieldname": "fact_table_name",
-   "fieldtype": "Data",
-   "label": "fact table name "
-  },
-  {
-   "fieldname": "fact_table_dimensional_diagram",
-   "fieldtype": "Attach",
-   "label": "fact table dimensional diagram"
+   "fieldtype": "Link",
+   "label": "fact table name ",
+   "options": "fact table"
   },
   {
    "fieldname": "table_guga",
    "fieldtype": "Table",
+   "label": "intergrated systems ",
    "options": "intergrated systems child"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-08 10:45:43.992124",
+ "modified": "2024-12-15 14:38:07.625376",
  "modified_by": "Administrator",
  "module": "Embardory",
  "name": "Master Processes",
