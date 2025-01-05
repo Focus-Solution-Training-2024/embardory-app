@@ -8,7 +8,8 @@
  "field_order": [
   "fact_table_name",
   "digram",
-  "process_name"
+  "process_name",
+  "discription"
  ],
  "fields": [
   {
@@ -29,11 +30,16 @@
    "in_list_view": 1,
    "label": "process name",
    "options": "Master Processes"
+  },
+  {
+   "fieldname": "discription",
+   "fieldtype": "Small Text",
+   "label": "discription"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-15 14:38:30.076338",
+ "modified": "2025-01-04 19:03:44.298469",
  "modified_by": "Administrator",
  "module": "Embardory",
  "name": "fact table",

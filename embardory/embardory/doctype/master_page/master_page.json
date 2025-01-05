@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:page_name",
  "creation": "2024-12-14 15:19:18.360255",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -17,7 +18,7 @@
  "fields": [
   {
    "fieldname": "users",
-   "fieldtype": "Table",
+   "fieldtype": "Table MultiSelect",
    "label": "users",
    "options": "Master User child"
   },
@@ -59,15 +60,17 @@
   {
    "fieldname": "page_name",
    "fieldtype": "Data",
-   "label": "page name"
+   "label": "page name",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-15 16:10:23.495807",
+ "modified": "2025-01-04 20:59:40.720022",
  "modified_by": "Administrator",
  "module": "Embardory",
  "name": "master page",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

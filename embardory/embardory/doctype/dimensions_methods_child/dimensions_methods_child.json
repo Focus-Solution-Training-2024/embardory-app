@@ -13,12 +13,6 @@
  ],
  "fields": [
   {
-   "fieldname": "method_name",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "method name "
-  },
-  {
    "fieldname": "attributes",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -26,16 +20,21 @@
   },
   {
    "fieldname": "trigger",
-   "fieldtype": "Link",
+   "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "trigger",
-   "options": "page elements child"
+   "label": "trigger"
+  },
+  {
+   "fieldname": "method_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "method name"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-12-14 14:58:08.654176",
+ "modified": "2025-01-04 23:03:03.577041",
  "modified_by": "Administrator",
  "module": "Embardory",
  "name": "dimensions methods child",

@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:process_name",
  "creation": "2024-12-08 10:35:53.371858",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -15,7 +16,8 @@
   {
    "fieldname": "process_name",
    "fieldtype": "Data",
-   "label": "process name"
+   "label": "process name",
+   "unique": 1
   },
   {
    "fieldname": "project_name",
@@ -43,10 +45,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-15 14:38:07.625376",
+ "modified": "2025-01-04 21:42:57.990201",
  "modified_by": "Administrator",
  "module": "Embardory",
  "name": "Master Processes",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
