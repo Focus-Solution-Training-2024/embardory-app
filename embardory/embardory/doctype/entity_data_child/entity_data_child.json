@@ -1,39 +1,36 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:page_name",
- "creation": "2024-12-10 21:52:53.999674",
+ "creation": "2024-12-14 14:31:22.045394",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "page_name",
-  "discription"
+  "attribute_name",
+  "data_type"
  ],
  "fields": [
   {
-   "fieldname": "page_name",
-   "fieldtype": "Link",
+   "fieldname": "attribute_name",
+   "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Page Name",
-   "options": "master page",
-   "unique": 1
+   "label": "attribute name"
   },
   {
-   "fieldname": "discription",
-   "fieldtype": "Small Text",
+   "fieldname": "data_type",
+   "fieldtype": "Select",
    "in_list_view": 1,
-   "label": "discription"
+   "label": "data type",
+   "options": "Text\nInteger\nDouble\nBoolean"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-12-15 15:02:51.668347",
+ "modified": "2024-12-14 14:33:19.800938",
  "modified_by": "Administrator",
  "module": "Embardory",
- "name": "page child",
- "naming_rule": "By fieldname",
+ "name": "entity data child",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "creation",

@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:page_name",
+ "creation": "2024-12-14 15:19:18.360255",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "page_name",
+  "users",
+  "fact_table_used",
+  "prototype",
+  "processes",
+  "dimensions",
+  "page_elements",
+  "master_data_used"
+ ],
+ "fields": [
+  {
+   "fieldname": "users",
+   "fieldtype": "Table MultiSelect",
+   "label": "users",
+   "options": "Master User child"
+  },
+  {
+   "fieldname": "processes",
+   "fieldtype": "Table",
+   "label": "Processes",
+   "options": "Business Processes child"
+  },
+  {
+   "fieldname": "dimensions",
+   "fieldtype": "Table",
+   "label": "dimensions",
+   "options": "dimensions methods child"
+  },
+  {
+   "fieldname": "fact_table_used",
+   "fieldtype": "Link",
+   "label": "fact table used",
+   "options": "fact table"
+  },
+  {
+   "fieldname": "prototype",
+   "fieldtype": "Attach",
+   "label": "prototype"
+  },
+  {
+   "fieldname": "page_elements",
+   "fieldtype": "Table",
+   "label": "page elements",
+   "options": "page elements child"
+  },
+  {
+   "fieldname": "master_data_used",
+   "fieldtype": "Table",
+   "label": "master data used ",
+   "options": "data child"
+  },
+  {
+   "fieldname": "page_name",
+   "fieldtype": "Data",
+   "label": "page name",
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-04 20:59:40.720022",
+ "modified_by": "Administrator",
+ "module": "Embardory",
+ "name": "master page",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

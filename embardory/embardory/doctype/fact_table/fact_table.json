@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-14 14:46:00.255717",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fact_table_name",
+  "digram",
+  "process_name",
+  "discription"
+ ],
+ "fields": [
+  {
+   "fieldname": "fact_table_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "fact table name"
+  },
+  {
+   "fieldname": "digram",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "fact table dimensional diagram"
+  },
+  {
+   "fieldname": "process_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "process name",
+   "options": "Master Processes"
+  },
+  {
+   "fieldname": "discription",
+   "fieldtype": "Small Text",
+   "label": "discription"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-04 19:03:44.298469",
+ "modified_by": "Administrator",
+ "module": "Embardory",
+ "name": "fact table",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

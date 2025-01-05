@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-14 14:23:39.450949",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "table_name",
+  "table_type",
+  "table_yhlp"
+ ],
+ "fields": [
+  {
+   "fieldname": "table_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "table name"
+  },
+  {
+   "fieldname": "table_type",
+   "fieldtype": "Select",
+   "label": "table type ",
+   "options": "refrence\nprocess\nmaster data"
+  },
+  {
+   "fieldname": "table_yhlp",
+   "fieldtype": "Table",
+   "label": "table data",
+   "options": "entity data child"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-15 15:42:23.956224",
+ "modified_by": "Administrator",
+ "module": "Embardory",
+ "name": "Entities",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

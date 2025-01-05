@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:process_name",
  "creation": "2024-12-08 10:35:53.371858",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -9,14 +10,14 @@
   "process_name",
   "business_processes_diagram",
   "fact_table_name",
-  "fact_table_dimensional_diagram",
   "table_guga"
  ],
  "fields": [
   {
    "fieldname": "process_name",
    "fieldtype": "Data",
-   "label": "process name"
+   "label": "process name",
+   "unique": 1
   },
   {
    "fieldname": "project_name",
@@ -31,26 +32,24 @@
   },
   {
    "fieldname": "fact_table_name",
-   "fieldtype": "Data",
-   "label": "fact table name "
-  },
-  {
-   "fieldname": "fact_table_dimensional_diagram",
-   "fieldtype": "Attach",
-   "label": "fact table dimensional diagram"
+   "fieldtype": "Link",
+   "label": "fact table name ",
+   "options": "fact table"
   },
   {
    "fieldname": "table_guga",
    "fieldtype": "Table",
+   "label": "intergrated systems ",
    "options": "intergrated systems child"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-08 10:45:43.992124",
+ "modified": "2025-01-04 21:42:57.990201",
  "modified_by": "Administrator",
  "module": "Embardory",
  "name": "Master Processes",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
