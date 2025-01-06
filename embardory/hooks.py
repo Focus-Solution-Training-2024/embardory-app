@@ -246,8 +246,8 @@ app_license = "mit"
 # }
 fixtures=[
     "business overview",
-    "Master Users",
-    "Master User child",
+    # "Master Users",
+    # "Master User child",
     "master",
     "dimensions methods child",
     "dimensions",
