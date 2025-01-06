@@ -1,21 +1,72 @@
 [
  {
-  "dimensions": [],
+  "dimensions": [
+   {
+    "attributes": "email,username,password,role",
+    "method_name": "register",
+    "trigger": "on clicking signup_btn"
+   },
+   {
+    "attributes": "email,username",
+    "method_name": "Check for Existing User",
+    "trigger": "on clicking signup_btn"
+   },
+   {
+    "attributes": null,
+    "method_name": "navigate to sign in page ",
+    "trigger": "on clicking link_signin "
+   },
+   {
+    "attributes": null,
+    "method_name": "navigate to signup with google ",
+    "trigger": "on clicking link_signup_with_google"
+   }
+  ],
   "docstatus": 0,
   "doctype": "master page",
   "fact_table_used": "register fact table",
   "master_data_used": [
    {
-    "table_name": "ch7umefkms"
+    "table_name": "User Table"
    }
   ],
-  "modified": "2024-12-15 16:07:28.858461",
-  "name": "kp2b1q7md7",
+  "modified": "2025-01-05 18:08:22.236364",
+  "name": "sign up",
   "page_elements": [
    {
-    "element_name": "username_txt",
-    "element_type": null,
-    "event": null
+    "element_name": "email_input",
+    "element_type": "input",
+    "event": "On input change"
+   },
+   {
+    "element_name": "password_input",
+    "element_type": "Password Input",
+    "event": "On input change"
+   },
+   {
+    "element_name": "role_select",
+    "element_type": "select",
+    "event": "On selection change"
+   },
+   {
+    "element_name": "user/brand name",
+    "element_type": "input",
+    "event": "On input change"
+   },
+   {
+    "element_name": "signup_btn",
+    "element_type": "button",
+    "event": "On click"
+   },
+   {
+    "element_name": "link_signin",
+    "element_type": "link text",
+    "event": "On click"
+   },
+   {
+    "element_name": "link_signup_with_google",
+    "element_type": "link text",
+    "event": "On click"
    }
   ],
   "page_name": "sign up",
@@ -24,7 +75,92 @@
     "process_name": "register procsess"
    }
   ],
-  "prototype": null,
+  "prototype": "/private/files/Screenshot 2025-01-04 201258.png",
+  "users": []
+ },
+ {
+  "dimensions": [
+   {
+    "attributes": "username,email,password",
+    "method_name": "login ",
+    "trigger": "on clicking login_btn"
+   },
+   {
+    "attributes": null,
+    "method_name": "navigate to signup ",
+    "trigger": "on clicking signup_link"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "master page",
+  "fact_table_used": "",
+  "master_data_used": [
+   {
+    "table_name": "User Table"
+   }
+  ],
+  "modified": "2025-01-05 19:39:07.306407",
+  "name": "sign in",
+  "page_elements": [
+   {
+    "element_name": "email_input",
+    "element_type": "input",
+    "event": "onInputChange"
+   },
+   {
+    "element_name": "password_input",
+    "element_type": "password_input",
+    "event": "onInputChange"
+   },
+   {
+    "element_name": "login_btn",
+    "element_type": "button",
+    "event": "onClick"
+   },
+   {
+    "element_name": "signup_link",
+    "element_type": "link text",
+    "event": "onClick"
+   }
+  ],
+  "page_name": "sign in",
+  "processes": [
+   {
+    "process_name": "login"
+   }
+  ],
+  "prototype": "/private/files/Screenshot 2025-01-04 214829.png",
+  "users": []
+ },
+ {
+  "dimensions": [],
+  "docstatus": 0,
+  "doctype": "master page",
+  "fact_table_used": null,
+  "master_data_used": [
+   {
+    "table_name": "Customer Table"
+   },
+   {
+    "table_name": "Product Table"
+   },
+   {
+    "table_name": "Vendor Table"
+   }
+  ],
+  "modified": "2025-01-05 19:39:38.811889",
+  "name": "Customer Dashboard",
+  "page_elements": [],
+  "page_name": "Customer Dashboard",
+  "processes": [
+   {
+    "process_name": "Add Product to Cart"
+   },
+   {
+    "process_name": "Load Products"
+   }
+  ],
+  "prototype": "/private/files/Screenshot 2025-01-04 230405.png",
   "users": []
  }
 ]

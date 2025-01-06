@@ -1,10 +1,10 @@
 [
  {
-  "business_processes_diagram": null,
+  "business_processes_diagram": "/private/files/Screenshot 2025-01-04 194441.png",
   "docstatus": 0,
   "doctype": "Master Processes",
   "fact_table_name": "register fact table",
-  "modified": "2024-12-15 14:42:31.340120",
+  "modified": "2025-01-04 19:45:00.380819",
   "name": "register procsess",
   "process_name": "register",
   "project_name": "Online Custom Embroidery",
@@ -15,5 +15,44 @@
     "system_name": "google (Oauth)"
    }
   ]
+ },
+ {
+  "business_processes_diagram": "/private/files/Screenshot 2025-01-04 213837.png",
+  "docstatus": 0,
+  "doctype": "Master Processes",
+  "fact_table_name": null,
+  "modified": "2025-01-04 21:41:27.430578",
+  "name": "login",
+  "process_name": "login",
+  "project_name": "Online Custom Embroidery",
+  "table_guga": [
+   {
+    "end_points": null,
+    "other_requirments": null,
+    "system_name": "google(oauth)"
+   }
+  ]
+ },
+ {
+  "business_processes_diagram": "/private/files/Screenshot 2025-01-05 192427.png",
+  "docstatus": 0,
+  "doctype": "Master Processes",
+  "fact_table_name": null,
+  "modified": "2025-01-05 19:26:00.985958",
+  "name": "Load Products",
+  "process_name": "Load Products",
+  "project_name": "Online Custom Embroidery",
+  "table_guga": []
+ },
+ {
+  "business_processes_diagram": "/private/files/Screenshot 2025-01-05 192857.png",
+  "docstatus": 0,
+  "doctype": "Master Processes",
+  "fact_table_name": null,
+  "modified": "2025-01-05 19:29:34.243289",
+  "name": "Add Product to Cart",
+  "process_name": "Add Product to Cart",
+  "project_name": "Online Custom Embroidery",
+  "table_guga": []
  }
 ]

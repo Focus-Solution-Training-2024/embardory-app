@@ -263,5 +263,6 @@ fixtures=[
     "page child",
     "page elements child",
     "test workflow",
+    "master page",
 ]
 

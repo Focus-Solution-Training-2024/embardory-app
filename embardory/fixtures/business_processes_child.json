@@ -2,11 +2,41 @@
  {
   "docstatus": 0,
   "doctype": "Business Processes child",
-  "modified": "2024-12-15 16:07:28.858461",
-  "name": "ftpd0quu38",
-  "parent": "kp2b1q7md7",
+  "modified": "2025-01-05 18:08:22.236364",
+  "name": "lk38ap8ase",
+  "parent": "sign up",
   "parentfield": "processes",
   "parenttype": "master page",
   "process_name": "register procsess"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Business Processes child",
+  "modified": "2025-01-05 19:39:07.306407",
+  "name": "mp9les1vei",
+  "parent": "sign in",
+  "parentfield": "processes",
+  "parenttype": "master page",
+  "process_name": "login"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Business Processes child",
+  "modified": "2025-01-05 19:39:38.811889",
+  "name": "knuphri323",
+  "parent": "Customer Dashboard",
+  "parentfield": "processes",
+  "parenttype": "master page",
+  "process_name": "Add Product to Cart"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Business Processes child",
+  "modified": "2025-01-05 19:39:38.811889",
+  "name": "0onatae8d8",
+  "parent": "Customer Dashboard",
+  "parentfield": "processes",
+  "parenttype": "master page",
+  "process_name": "Load Products"
  }
 ]

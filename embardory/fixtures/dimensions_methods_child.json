@@ -1,1 +1,74 @@
-[]
+[
+ {
+  "attributes": "email,username,password,role",
+  "docstatus": 0,
+  "doctype": "dimensions methods child",
+  "method_name": "register",
+  "modified": "2025-01-05 18:08:22.236364",
+  "name": "ojjf6q04g8",
+  "parent": "sign up",
+  "parentfield": "dimensions",
+  "parenttype": "master page",
+  "trigger": "on clicking signup_btn"
+ },
+ {
+  "attributes": "username,email,password",
+  "docstatus": 0,
+  "doctype": "dimensions methods child",
+  "method_name": "login ",
+  "modified": "2025-01-05 19:39:07.306407",
+  "name": "4e98dcubrr",
+  "parent": "sign in",
+  "parentfield": "dimensions",
+  "parenttype": "master page",
+  "trigger": "on clicking login_btn"
+ },
+ {
+  "attributes": "email,username",
+  "docstatus": 0,
+  "doctype": "dimensions methods child",
+  "method_name": "Check for Existing User",
+  "modified": "2025-01-05 18:08:22.236364",
+  "name": "i649takmon",
+  "parent": "sign up",
+  "parentfield": "dimensions",
+  "parenttype": "master page",
+  "trigger": "on clicking signup_btn"
+ },
+ {
+  "attributes": null,
+  "docstatus": 0,
+  "doctype": "dimensions methods child",
+  "method_name": "navigate to signup ",
+  "modified": "2025-01-05 19:39:07.306407",
+  "name": "se4usguu8m",
+  "parent": "sign in",
+  "parentfield": "dimensions",
+  "parenttype": "master page",
+  "trigger": "on clicking signup_link"
+ },
+ {
+  "attributes": null,
+  "docstatus": 0,
+  "doctype": "dimensions methods child",
+  "method_name": "navigate to sign in page ",
+  "modified": "2025-01-05 18:08:22.236364",
+  "name": "61hv9ph6vs",
+  "parent": "sign up",
+  "parentfield": "dimensions",
+  "parenttype": "master page",
+  "trigger": "on clicking link_signin "
+ },
+ {
+  "attributes": null,
+  "docstatus": 0,
+  "doctype": "dimensions methods child",
+  "method_name": "navigate to signup with google ",
+  "modified": "2025-01-05 18:08:22.236364",
+  "name": "67ggeh4r4m",
+  "parent": "sign up",
+  "parentfield": "dimensions",
+  "parenttype": "master page",
+  "trigger": "on clicking link_signup_with_google"
+ }
+]
