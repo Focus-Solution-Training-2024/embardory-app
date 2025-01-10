@@ -1,0 +1,14 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Entities",
+  "modified": "2024-12-15 15:30:33.243349",
+  "name": "user table",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "table_name": "user",
+  "table_type": "master data",
+  "table_yhlp": []
+ }
+]

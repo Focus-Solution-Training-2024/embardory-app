@@ -2,18 +2,7 @@
  {
   "docstatus": 0,
   "doctype": "Master User child",
-  "modified": "2024-12-07 22:28:31.957858",
-  "name": "customers",
-  "parent": "Embroidery Users",
-  "parentfield": "master_users",
-  "parenttype": "Master Users",
-  "user_name": "customers",
-  "user_story": "Browse and Choose Products: Users can either select from past designs, customize their own design, or choose a designer from a list to create a special, unique design. Afterward, they can approve the design and add it to the cart to proceed with purchasing.\nSign Up: Before proceeding with the purchase, users must sign up to the system to continue with the checkout process.\nOrder Tracking: Users can log in at any time to track the status of their order.\nVendor Communication: Users can chat with the selected vendor and share photos to monitor the progress of their order.\nOrder Cancellation: Users can cancel their order within a specific time frame.\nFeedback: After receiving the product, users can provide feedback on their experience and the quality of the product.\nProduct Sharing: Users can share their purchased products with friends.\nCopyright Protection: The designs are saved with copyright protection to prevent unauthorized use."
- },
- {
-  "docstatus": 0,
-  "doctype": "Master User child",
-  "modified": "2024-12-07 22:28:31.957858",
+  "modified": "2025-01-10 17:00:24.983341",
   "name": "vendors",
   "parent": "Embroidery Users",
   "parentfield": "master_users",
@@ -24,7 +13,18 @@
  {
   "docstatus": 0,
   "doctype": "Master User child",
-  "modified": "2024-12-07 22:28:31.957858",
+  "modified": "2025-01-10 17:00:24.983341",
+  "name": "customers",
+  "parent": "Embroidery Users",
+  "parentfield": "master_users",
+  "parenttype": "Master Users",
+  "user_name": "customers",
+  "user_story": "Browse and Choose Products: Users can either select from past designs, customize their own design, or choose a designer from a list to create a special, unique design. Afterward, they can approve the design and add it to the cart to proceed with purchasing.\nSign Up: Before proceeding with the purchase, users must sign up to the system to continue with the checkout process.\nOrder Tracking: Users can log in at any time to track the status of their order.\nVendor Communication: Users can chat with the selected vendor and share photos to monitor the progress of their order.\nOrder Cancellation: Users can cancel their order within a specific time frame.\nFeedback: After receiving the product, users can provide feedback on their experience and the quality of the product.\nProduct Sharing: Users can share their purchased products with friends.\nCopyright Protection: The designs are saved with copyright protection to prevent unauthorized use."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Master User child",
+  "modified": "2025-01-10 17:00:24.983341",
   "name": "designers",
   "parent": "Embroidery Users",
   "parentfield": "master_users",

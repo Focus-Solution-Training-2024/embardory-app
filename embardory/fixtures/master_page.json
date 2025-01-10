@@ -2,16 +2,6 @@
  {
   "dimensions": [
    {
-    "attributes": "email,username,password,role",
-    "method_name": "register",
-    "trigger": "on clicking signup_btn"
-   },
-   {
-    "attributes": "email,username",
-    "method_name": "Check for Existing User",
-    "trigger": "on clicking signup_btn"
-   },
-   {
     "attributes": null,
     "method_name": "navigate to sign in page ",
     "trigger": "on clicking link_signin "
@@ -20,6 +10,16 @@
     "attributes": null,
     "method_name": "navigate to signup with google ",
     "trigger": "on clicking link_signup_with_google"
+   },
+   {
+    "attributes": "email,username",
+    "method_name": "Check for Existing User",
+    "trigger": "on clicking signup_btn"
+   },
+   {
+    "attributes": "email,username,password,role",
+    "method_name": "register",
+    "trigger": "on clicking signup_btn"
    }
   ],
   "docstatus": 0,
@@ -34,22 +34,12 @@
   "name": "sign up",
   "page_elements": [
    {
-    "element_name": "email_input",
+    "element_name": "user/brand name",
     "element_type": "input",
     "event": "On input change"
    },
    {
-    "element_name": "password_input",
-    "element_type": "Password Input",
-    "event": "On input change"
-   },
-   {
-    "element_name": "role_select",
-    "element_type": "select",
-    "event": "On selection change"
-   },
-   {
-    "element_name": "user/brand name",
+    "element_name": "email_input",
     "element_type": "input",
     "event": "On input change"
    },
@@ -59,14 +49,24 @@
     "event": "On click"
    },
    {
-    "element_name": "link_signin",
-    "element_type": "link text",
-    "event": "On click"
+    "element_name": "role_select",
+    "element_type": "select",
+    "event": "On selection change"
    },
    {
     "element_name": "link_signup_with_google",
     "element_type": "link text",
     "event": "On click"
+   },
+   {
+    "element_name": "link_signin",
+    "element_type": "link text",
+    "event": "On click"
+   },
+   {
+    "element_name": "password_input",
+    "element_type": "Password Input",
+    "event": "On input change"
    }
   ],
   "page_name": "sign up",
@@ -103,13 +103,13 @@
   "name": "sign in",
   "page_elements": [
    {
-    "element_name": "email_input",
-    "element_type": "input",
+    "element_name": "password_input",
+    "element_type": "password_input",
     "event": "onInputChange"
    },
    {
-    "element_name": "password_input",
-    "element_type": "password_input",
+    "element_name": "email_input",
+    "element_type": "input",
     "event": "onInputChange"
    },
    {

@@ -17,7 +17,6 @@
    "in_list_view": 1,
    "label": "user name",
    "options": "master",
-   "reqd": 1,
    "unique": 1
   },
   {
@@ -31,7 +30,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-01-04 18:46:46.231351",
+ "modified": "2025-01-10 16:59:47.446858",
  "modified_by": "Administrator",
  "module": "Embardory",
  "name": "Master User child",
