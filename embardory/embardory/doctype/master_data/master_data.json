@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{table_name} Table",
  "creation": "2024-12-14 14:23:39.450949",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -32,10 +33,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-15 15:54:40.104181",
+ "modified": "2025-01-10 17:20:51.638610",
  "modified_by": "Administrator",
  "module": "Embardory",
  "name": "master data",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

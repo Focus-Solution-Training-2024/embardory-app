@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:system_name",
  "creation": "2024-12-08 10:44:09.153066",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -15,7 +16,8 @@
    "fieldname": "system_name",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "system name"
+   "label": "system name",
+   "unique": 1
   },
   {
    "fieldname": "end_points",
@@ -33,10 +35,11 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-12-08 10:46:04.889186",
+ "modified": "2025-01-10 17:22:29.234859",
  "modified_by": "Administrator",
  "module": "Embardory",
  "name": "intergrated systems child",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "creation",

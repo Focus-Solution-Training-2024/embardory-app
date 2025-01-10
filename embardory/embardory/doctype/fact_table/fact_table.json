@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:fact_table_name",
  "creation": "2024-12-14 14:46:00.255717",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -16,7 +17,8 @@
    "fieldname": "fact_table_name",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "fact table name"
+   "label": "fact table name",
+   "unique": 1
   },
   {
    "fieldname": "digram",
@@ -39,10 +41,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-04 19:03:44.298469",
+ "modified": "2025-01-10 17:07:27.287664",
  "modified_by": "Administrator",
  "module": "Embardory",
  "name": "fact table",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

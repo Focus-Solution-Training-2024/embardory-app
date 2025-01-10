@@ -31,12 +31,13 @@
   {
    "fieldname": "link_rtws",
    "fieldtype": "Link",
+   "label": "project name",
    "options": "business overview"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-08 10:31:41.330405",
+ "modified": "2025-01-10 17:23:23.490394",
  "modified_by": "Administrator",
  "module": "Embardory",
  "name": "dimensions",
